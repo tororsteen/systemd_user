@@ -1,0 +1,8 @@
+[Unit]
+Description=Kjører numlockx etter innlogg
+
+[Timer]
+OnActiveSec=10
+
+[Install]
+WantedBy=timers.target

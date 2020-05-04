@@ -1,0 +1,12 @@
+
+[Unit]
+Description=Cairo composite manager
+After=wm.target
+
+[Service]
+Type=oneshot
+ExecStart=/usr/bin/sleep 3  
+ExecStart=/usr/bin/cairo-compmgr
+
+[Install]
+WantedBy=wm.target

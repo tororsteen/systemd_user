@@ -1,0 +1,11 @@
+
+[Unit]
+Description=Batteristatus
+After=wm.target
+
+[Service]
+#ExecStart=/usr/bin/batterymon
+ExecStart=/usr/bin/cbatticon
+
+[Install]
+WantedBy=wm.target

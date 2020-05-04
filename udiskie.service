@@ -1,0 +1,10 @@
+
+[Unit]
+Description=Udiskie
+After=wm.target
+
+[Service]
+ExecStart=/usr/bin/udiskie --tray 
+
+[Install]
+WantedBy=wm.target

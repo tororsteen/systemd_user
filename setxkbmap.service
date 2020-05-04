@@ -1,0 +1,10 @@
+
+[Unit]
+Description=Setter_Compose_Tast
+After=wm.target
+
+[Service]
+ExecStart=/usr/bin/setxkbmap -option compose:menu
+
+[Install]
+WantedBy=wm.target

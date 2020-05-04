@@ -1,0 +1,12 @@
+
+[Unit]
+Description=Compton composite manager
+After=wm.target
+
+[Service]
+Type=oneshot
+ExecStart=/usr/bin/sleep 3  
+ExecStart=/usr/bin/compton
+
+[Install]
+WantedBy=wm.target

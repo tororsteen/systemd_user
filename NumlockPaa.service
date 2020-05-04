@@ -1,0 +1,9 @@
+[Unit]
+Description=Numlock
+After=wm.target
+
+[Service]
+ExecStart=/usr/bin/numlockx
+
+[Install]
+WantedBy=wm.target

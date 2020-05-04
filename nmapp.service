@@ -1,0 +1,10 @@
+
+[Unit]
+Description=NetworkManagerApplet
+After=wm.target
+
+[Service]
+ExecStart=/usr/bin/nm-applet
+
+[Install]
+WantedBy=wm.target

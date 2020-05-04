@@ -1,0 +1,11 @@
+
+[Unit]
+Description=Monterer ~/pkg til /var/cache/pacman/pkg
+After=wm.target
+
+[Service]
+ExecStart=/home/tor/Scripts/MonterPkg
+
+[Install]
+WantedBy=wm.target
+

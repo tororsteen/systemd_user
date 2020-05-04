@@ -1,0 +1,11 @@
+
+[Unit]
+Description=tint2
+After=wm.target
+
+[Service]
+ExecStart=/usr/bin/tint2 -c /home/tor/.config/i3/tint2.i3
+
+
+[Install]
+WantedBy=wm.target

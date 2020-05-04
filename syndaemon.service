@@ -1,0 +1,10 @@
+
+[Unit]
+Description=Styrer museplate
+After=wm.target
+
+[Service]
+ExecStart=/usr/bin/syndaemon -i 2 -d -k 
+
+[Install]
+WantedBy=wm.target

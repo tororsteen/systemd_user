@@ -1,0 +1,15 @@
+
+[Unit]
+Description=Conky
+After=network-online.target wm.target 
+
+[Service]
+Type=oneshot
+ExecStart=/usr/bin/sleep 5  
+ExecStart=/usr/bin/conky -c /home/tor/.config/i3/conkyrc.i3 
+ExecReload=/bin/kill -HUP $MAINPID
+KillMode=process
+
+[Install]
+WantedBy=wm.target
+

@@ -1,0 +1,10 @@
+
+[Unit]
+Description=Nettverksmonitor
+After=wm.target
+
+[Service]
+ExecStart=/usr/bin/netmon
+
+[Install]
+WantedBy=wm.target

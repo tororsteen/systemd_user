@@ -1,0 +1,11 @@
+
+[Unit]
+Description=Setter_Shift4_til_dollar
+After=wm.target
+
+[Service]
+ExecStart=/home/tor/Scripts/dollar
+
+[Install]
+WantedBy=wm.target
+

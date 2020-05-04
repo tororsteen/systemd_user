@@ -1,0 +1,10 @@
+
+[Unit]
+Description=Utklipstavle
+After=wm.target
+
+[Service]
+ExecStart=/usr/bin/parcellite
+
+[Install]
+WantedBy=wm.target
