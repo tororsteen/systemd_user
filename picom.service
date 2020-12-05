@@ -1,0 +1,12 @@
+
+[Unit]
+Description=Picom composite manager
+After=wm.target
+
+[Service]
+Type=oneshot
+ExecStart=/usr/bin/sleep 3  
+ExecStart=/usr/bin/picom 
+
+[Install]
+WantedBy=wm.target
