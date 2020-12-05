@@ -5,9 +5,9 @@ After=wm.target
 
 [Service]
 #Anders og Mari i gummibåt
-ExecStart=/usr/bin/nitrogen --set-zoom-fill /home/tor/Bilder/Anders/AndersOgMari0718.jpg
+#ExecStart=/usr/bin/nitrogen --set-zoom-fill /home/tor/Bilder/Anders/AndersOgMari0718.jpg
 #Julebakgrunn med Tux
-#ExecStart=/usr/bin/nitrogen --set-zoom-fill /home/tor/Bilder/Jul2_bakgr.jpe
+ExecStart=/usr/bin/nitrogen --set-zoom-fill /home/tor/Bilder/Jul2_bakgr.jpe
 
 [Install]
 WantedBy=wm.target
