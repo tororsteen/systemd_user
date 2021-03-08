@@ -1,0 +1,11 @@
+
+[Unit]
+Description=laster post fra ellenors@online,no
+Wants=mpop.timer
+
+[Service]
+Type=oneshot
+ExecStart=/usr/bin/mpop
+
+[Install]
+WantedBy=wm.target

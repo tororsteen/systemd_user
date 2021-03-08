@@ -1,0 +1,10 @@
+[Unit]
+Description=laster post fra gmail
+Wants=offlineimap.timer
+
+[Service]
+Type=oneshot
+ExecStart=/usr/bin/offlineimap
+
+[Install]
+WantedBy=wm.target

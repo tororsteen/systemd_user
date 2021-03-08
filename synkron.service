@@ -1,0 +1,10 @@
+[Unit]
+Description=Synkroniserer filer med server
+Wants=synkron.timer
+
+[Service]
+Type=oneshot
+ExecStart=/home/tor/Scripts/synkroniser 
+
+[Install]
+WantedBy=wm.target

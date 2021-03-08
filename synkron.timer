@@ -1,0 +1,9 @@
+[Unit]
+Description=Synkroniserer filer til server natt til mandag kl. 03:00
+
+[Timer]
+Unit=synkron.service
+OnCalendar=Mon *-*-* 03:00:00
+
+[Install]
+WantedBy=timers.target

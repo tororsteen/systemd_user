@@ -1,0 +1,10 @@
+[Unit]
+Description=Laster fra gmail hver 5. minutt
+Requires=offlineimap.service
+
+[Timer]
+Unit=offlineimap.service
+OnCalendar=*:0/5
+
+[Install]
+WantedBy=timers.target

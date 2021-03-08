@@ -1,0 +1,11 @@
+
+[Unit]
+Description=Laster fra ellenors hver 15. minutt
+Requires=mpop.service
+
+[Timer]
+Unit=mpop.service
+OnCalendar=*:0/15
+
+[Install]
+WantedBy=timers.target
