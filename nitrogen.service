@@ -9,7 +9,8 @@ After=wm.target
 #Julebakgrunn med Tux
 #ExecStart=/usr/bin/nitrogen --set-zoom-fill /home/tor/Bilder/Jul2_bakgr.jpe
 #Anders, Mari og bikkjene
-ExecStart=/usr/bin/nitrogen --set-zoom-fill /home/tor/Bilder/ungene_skrivebordbakgrunn.jpg
-
+#ExecStart=/usr/bin/nitrogen --set-zoom-fill /home/tor/Bilder/ungene_skrivebordbakgrunn.jpg
+#Ander og Mari på Mølen
+ExecStart=/usr/bin/nitrogen --set-zoom-fill /home/tor/Bilder/ungene_skrivebordbakgrunn2021sommer.jpg
 [Install]
 WantedBy=wm.target
