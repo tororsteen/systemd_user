@@ -1,0 +1,10 @@
+
+[Unit]
+Description=Varslingstjeneste
+After=wm.target
+
+[Service]
+ExecStart=/usr/lib/xfce4/notifyd/xfce4-notifyd
+
+[Install]
+WantedBy=wm.target
