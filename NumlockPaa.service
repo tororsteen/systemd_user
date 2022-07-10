@@ -3,7 +3,8 @@ Description=Numlock
 After=wm.target
 
 [Service]
-ExecStart=/usr/bin/numlockx
+#ExecStart=/usr/bin/numlockx
+ExecStart=/home/tor/Scripts/NumlockPaa
 
 [Install]
 WantedBy=wm.target
